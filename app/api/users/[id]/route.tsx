@@ -27,7 +27,7 @@ export async function PUT(
     return NextResponse.json({ id: 1, name: body.name })
 }
 
-export async function DELETE(
+export function DELETE(
     request: NextRequest,
     { params }: { params: { id: number } }
 ) {
