@@ -3,11 +3,11 @@ import {
   Html,
   Body,
   Container,
-  Tailwind,
   Text,
   Link,
   Preview,
 } from "@react-email/components";
+import { Tailwind } from '@react-email/tailwind';
 
 const WelcomeTemplate = ({ name }: { name: string }) => {
   return (

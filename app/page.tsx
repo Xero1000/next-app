@@ -3,7 +3,6 @@ import aldebaran from '@/public/images/aldebaran-s-qtRF_RxCAo0-unsplash.jpg'
 import Link from 'next/link'
 import ProductCard from './components/ProductCard'
 import { getServerSession } from 'next-auth'
-import { authOptions } from './api/auth/[...nextauth]/route'
 import { Metadata } from 'next'
 import HeavyComponent from './components/HeavyComponent'
 
